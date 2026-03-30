@@ -1,0 +1,12 @@
+version: 2
+sources:
+  - name: dot_311
+    database: janvi-cis-9440
+    schema: nyc_311_raw_data
+    tables:
+      - name: source_dot_service_requests_history
+  - name: open_restaurant_apps
+    database: janvi-cis-9440
+    schema: nyc_hw3_raw_data
+    tables:
+      - name: source_nyc_open_restaurant_apps
