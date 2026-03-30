@@ -1,5 +1,11 @@
 version: 2
 sources:
+    - name: raw_restaurants
+    description: Raw restaurant applications data
+    database: janvi-cis-9440
+    schema: nyc_hw3_raw_data
+    tables:
+      - name: source_nyc_open_restaurant_apps
   - name: raw
     description: Raw data loaded from NYC Open Data
     database: janvi-cis-9440
