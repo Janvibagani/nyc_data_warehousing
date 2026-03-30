@@ -6,6 +6,12 @@ sources:
     schema: nyc_311_raw_data
     tables:
       - name: source_dot_service_requests_history
+  - name: raw_restaurants
+    description: Raw restaurant applications data
+    database: janvi-cis-9440
+    schema: nyc_hw3_raw_data
+    tables:
+      - name: source_nyc_open_restaurant_apps
         description: |
           NYC 311 service requests for Dept of Transportation.
           One row per service request.
